@@ -1,0 +1,45 @@
+#pay_main{width: 100%;border-top: 2px solid #000;}
+#pay_main .pay_process{width: 534px;height: 43px;margin: 20px auto 0;background: url(../imges/pay_bg1.png) no-repeat;position: relative;}
+#pay_main .pay_process .step_one{position: absolute;background: url(../imges/pay_bg2.png) no-repeat;width: 40px;height: 43px;}
+#pay_main .pay_process{height: 70px;}
+#pay_main .pay_process span{position: absolute;bottom: 5px;font-size: 14px;}
+#pay_main .pay_process .one{left: -6px;color: #e10482;}
+#pay_main .pay_process .tow{left: 50%;margin-left: -50px;}
+#pay_main .pay_process .three{right: 4px;}
+#pay_main .pay_content{padding: 20px 0;}
+#pay_main .pay_content .wrap{width: 990px;margin: 0 auto;}
+#pay_main .pay_content .pay_nav{height: 37px;background: #F0F0F0;vertical-align: middle;margin-bottom: 15px;}
+#pay_main .pay_content .pay_nav span{padding: 8px 0;display: inline-block;text-align: center;font-size: 14px;font-weight: 900;}
+#pay_main .pay_content .pay_nav .pay_all{width: 5%;}
+#pay_main .pay_content .pay_nav .pay_goods{width: 43%;}
+#pay_main .pay_content .pay_nav .pay_price{width: 16%;}
+#pay_main .pay_content .pay_nav .pay_count{width: 12%;}
+#pay_main .pay_content .pay_nav .pay_sum{width: 12%;}
+#pay_main .pay_content .pay_nav .pay_handle{width: 10%;}
+#pay_main .pay_content .pay_where{font-size: 16px;padding: 8px 0;border-bottom: 2px solid #ccc;margin-bottom: 10px;}
+#pay_main .pay_content .pay_show{border: 1px solid #F0F0F0;}
+#pay_main .pay_content .show_box li{padding: 15px 0;}
+#pay_main .pay_content .show_box div{float: left;height: 107px;text-align: center;}
+#pay_main .show_box .show_sec{width: 5%;}
+#pay_main .show_box .show_sec input{margin-top: 50px;}
+#pay_main .show_box .show_goods{width: 43%;}
+#pay_main .show_box .show_goods dd{float: left;width: 260px;line-height: 14px;padding:5px 0 0 10px;}
+#pay_main .show_box .show_goods dt{float: left;width: 100px;height: 100px;border: 1px solid #eee;}
+#pay_main .show_box .show_goods dt img{width: 100%;height: 100%;}
+#pay_main .show_box .show_price{width: 16%;line-height: 107px;font-size: 18px;font-family: 'fonten';color: #000;font-weight: 900;}
+#pay_main .show_box .show_change{width: 12%;}
+#pay_main .show_box .show_change a{display: inline-block;color: #d5d5d5;width: 20px;height: 20px;font-size: 22px;line-height: 20px;text-align: center;color: #999;float: left;border: 1px solid #ccc;margin-top: 40px;}
+#pay_main .show_box .show_change a:first-child{margin-left: 37px;}
+#pay_main .show_box .show_change input{width: 30px;height: 20px;line-height: 20px;font-family: 'fonten';font-size: 14px;border: 1px solid #ccc;text-align: center;font-size: 16px;outline: none;float: left;margin-top: 40px;}
+#pay_main .show_box .show_sum{width: 12%;line-height: 107px;font-size: 18px;color: #E40788;}
+#pay_main .show_box .show_del{width: 10%;}
+#pay_main .show_box .show_del a{display: block;width: 15px;height: 16px;background: url(../imges/rubbish.jpg);margin: 45px 0 0 60px;}
+#pay_main .pay_now{border: 1px solid #F0F0F0;margin: 40px 0;}
+#pay_main .pay_now span{float: right;margin: 10px 0;}
+#pay_main .pay_now .go_pay{display: inline-block;padding: 10px 50px;background: #E10482;color: #fff;text-align: center;border-radius: 30px;font-size: 18px;cursor: pointer;margin:20px 0 0 30px;}
+#pay_main .pay_now .go_buy{display: inline-block;padding: 10px 50px;background: #E10482;text-align: center;border-radius: 30px;font-size: 18px;cursor: pointer;margin:20px 0 0 30px;}
+#pay_main .pay_now .go_buy a{color: #fff;}
+#pay_main .pay_now .pay_message{margin-top: 30px;font-size: 16px;}
+#pay_main .pay_now .pay_message b{font-weight: 100;color: #E40788;padding: 0 5px;}
+#pay_main .pay_now .pay_message i{color: #E40788;}
+#pay_main .pay_now .pay_message em{color: #E40788;font-size: 36px;}

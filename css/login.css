@@ -1,0 +1,6 @@
+
+.login_content .login_nav{height: 48px;border-bottom: 2px solid #000;margin-bottom: 26px;padding: 0 50px;}
+.login_content .login_nav li{float: left;width: 114px;margin-top: 2px;text-align: center;color: #333;font-size: 16px;line-height: 46px;border: 2px solid transparent;border-bottom: 0 none;border-radius: 5px 5px 0 0;cursor: pointer;position: relative;z-index: 1;}
+.login_content .login_nav .change{background: #fff;border-color: #000;}
+.login_content .forget{float: right;font-size: 14px;color: #3b99fd;}
+.login_content .login span{width: 150px!important;margin-top: 65px!important;}

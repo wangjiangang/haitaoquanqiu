@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>结算页</title>
+		<link rel="stylesheet" type="text/css" href="../css/zong.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/pay.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>		
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="pay_main">
+			<div class="pay_process">
+				<div class="step_one"></div>
+				<span class="one">1.购物袋</span>
+				<span class="tow">2.确认订单信息</span>
+				<span class="three">3.付款</span>
+			</div>
+			<div class="pay_content">
+				<div class="wrap">
+					<div class="pay_nav">
+						<span class="pay_all">
+							<input type="checkbox" checked="checked" />
+							全选
+						</span>
+						<span class="pay_goods">商品</span>
+						<span class="pay_price">单价</span>
+						<span class="pay_count">数量</span>
+						<span class="pay_sum">小计</span>
+						<span class="pay_handle">操作</span>
+					</div>
+					<div class="pay_where">
+						<input type="checkbox" checked="checked" />
+						韩国直邮1号仓
+					</div>
+					<div class="pay_show">
+						<ul class="show_box">
+							<!--<li class="clear">
+								<div class="show_sec">
+									<input type="checkbox" />
+								</div>
+								<div class="show_goods">
+									<dl class="clear">
+										<dt><img src=""/></dt>
+										<dd>
+											果疏丽人 轻畅颗粒 30克（3克/包×10包）
+										</dd>
+									</dl>
+								</div>
+								<div class="show_price">
+									<em>￥</em><span>10.00</span>
+								</div>
+								<div class="show_change">
+									<a href="javascript:;" class="decrease">-</a>
+									<input class="inputNum" type="text" name="" id="" value="1" />
+									<a href="javascript:;" class="increase">+</a>
+								</div>
+								<div class="show_sum">
+									<em>￥</em><span></span>
+								</div>
+								<div class="show_del">
+									<a href="javascript:;"></a>
+								</div>
+							</li>	-->						
+						</ul>						
+					</div>
+					<div class="pay_now clear">
+						<span class="go_buy"><a href="http://10.9.170.19/haitaoquanqiu/html/activity.html">继续购物</a></span>
+						<span class="go_pay">去结算</span>
+						<span class="pay_message">已选<b>0</b>款商品，合计（不含运费及税费）<i>￥</i><em>0.00</em></span>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+		<div id="right_fixed"></div>
+		<script src="../scripts/sea.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			seajs.config({
+				alias:{
+					"jq":'jquery-1.11.3',
+					"cookie":'jquery.cookie'
+				}
+			});			
+			seajs.use('pay');     //接口连到运行的JS文件中。路径是相对于sea.js的。														
+		</script>	
+	</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/zong.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>		
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="reg_main">
+			<div class="group_box">
+		        <div class="jogin_box clear">
+		            <div class="jogin left"></div>
+		            <span class="welcome_hitao">欢迎登录加入嗨淘全球</span>
+		            <div class="jogin_desc">
+		                	还不是嗨淘全球会员？
+		            <a href="javascript:;" title="去注册" class="reg_btn log_btn"><span>去注册</span></a>
+		            </div>
+		        </div>
+		    </div>
+	        <div class="wrap_box">	        	
+	        	<div class="content clear">
+	        		<div class="con_left left">
+	        			<img src="../imges/bg_reg.jpg"/>
+	        		</div>
+	        		<div class="login_content right">
+		        		<ul class="login_nav clear">
+		        			<li class="change">账号登录</li>
+		        			<li>验证码登录</li>
+		        		</ul>
+		        		<div class="reg_one">
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>账号</span>
+		        					<input type="text" id="phone" placeholder="请输入您的手机号" />
+	        					</div>
+	        					<p class="tip_box"></p>
+	        				</div>
+	        				
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>密码</span>
+		        					<input type="password" id="password" placeholder="请输入密码" />
+		        					
+	        					</div>
+	        					<p class="tip_box clear"></p>
+	        				</div>
+	        				<a href="javascript:;" class="forget">忘记密码？</a>
+	        				<div class="nextway register login">
+	        					<span>登录</span>
+	        				</div>
+	        			</div>
+	        			<div class="reg_two">
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>账号</span>
+		        					<input type="text" id="phonenum" placeholder="请输入您的手机号" />
+	        					</div>
+	        					<p class="tip_box"></p>
+	        				</div>
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>验证码</span>
+		        					<input type="text" id="testcode" placeholder="请输入图形码" />
+		        					<img src="../imges/yanzhengma.jpg" class="position_img"/>
+	        					</div>
+	        					<p class="tip_box clear"></p>
+	        				</div>
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>短信验证码</span>
+		        					<input type="text" id="imessage" placeholder="请输入验证码" />
+		        					<a href="javascript:;" class="position_a">获取短信验证码</a>
+	        					</div>
+	        					<p class="tip_box clear"></p>
+	        				</div>
+	        				<div class="nextway register login">
+	        					<span>登录</span>
+	        				</div>
+	        			</div>
+	        		</div>	        			        		
+	        	</div>
+	        </div>   		 	
+		</div>
+		<div id="footer"></div>
+		<div id="right_fixed"></div>
+		<script src="../scripts/sea.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">		
+			seajs.config({
+				alias:{
+					"jq":'jquery-1.11.3',      //插件  引入一个jquery
+					"cookie":'jquery.cookie'
+				}
+			});
+			seajs.use('login');	//接口连到运行的JS文件中。路径是相对于sea.js的。			     						
+		</script>
+	</body>
+</html>

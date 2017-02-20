@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表页</title>
+		<link rel="stylesheet" type="text/css" href="../css/zong.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/list.css"/>								
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="list_main">
+			<div class="wrapper">
+				<div class="path">
+					<a href="http://10.9.170.19/haitaoquanqiu/index.html">首页 ></a>
+					<span>搜索结果页</span>
+				</div>
+				<div class="goodsnum">
+					“面膜”商品共 <span>43</span> 个
+				</div>
+				<div class="shaib">
+					<i>您已选择：</i>					
+					<a class="clear_all" href="javascript:;">清空筛选条件</a>
+				</div>
+				<div class="cla category">
+					分类：
+					<a href="javascript:;">面膜贴</a>
+					<a href="javascript:;">免洗面膜</a>
+					<a href="javascript:;">水洗面膜</a>
+					<a href="javascript:;">面膜</a>
+				</div>
+				<div class="brand category">
+					品牌：
+					<a href="javascript:;">Kanebo/嘉娜宝</a>
+					<a href="javascript:;">Leaders/丽得姿</a>	
+					<a href="javascript:;">SNP</a>	
+				</div>
+				<div class="category pricerage">
+					价格：
+					<a href="javascript:;">1-99</a>
+					<a href="javascript:;">100-199</a>
+					<a href="javascript:;">200-299</a>
+					<a href="javascript:;">300-399</a>
+					<a href="javascript:;">400-499</a>
+					<a href="javascript:;">500-699</a>
+					<a href="javascript:;">700-999</a>
+					<a href="javascript:;">1000以上</a>				
+				</div>
+				<div class="category rank">
+					排序：
+					<a href="javascript:;" class="toggle">综合</a>
+					<a href="javascript:;" class="price_rank">价格<i></i></a>
+					<a href="javascript:;">销量<i></i></a>
+				</div>
+				<div class="list">
+					<ul class="list_box clear">
+						<!--<li>
+							<a class="img_wrap" href="javascript:;"><img src="../imges/l5.jpg"/></a>
+							<div class="text_box">
+								<span>
+								<img src="../imges/han.png"/>
+								郑州保税仓发货 不支持无理由退换货
+								</span>
+								<p>【郑州保税仓】悦诗风吟乳木果面膜 10片</p>
+								<div class="while_price">
+									￥88.00
+								</div>
+								<del>￥150.00</del>
+								<span class="while_buy"></span>
+							</div>							
+						</li>
+						<li>
+							<a href="javascript:;"><img src="../imges/l8.jpg"/></a>
+							<div class="text_box">
+								<span>
+								<img src="../imges/ao.png"/>
+								韩国直邮 不支持七天无理由退换货
+								</span>
+								<p>【韩国直邮】SNP 动物水獭保湿面膜_10片</p>
+								<div class="while_price">
+									￥99.00
+								</div>
+								<del>￥189.00</del>
+								<span class="while_buy"></span>
+							</div>							
+						</li>
+						<li>
+							<a href="javascript:;"><img src="../imges/l7.jpg"/></a>
+							<div class="text_box">
+								<span>
+								<img src="../imges/zhong.png"/>
+								郑州保税仓发货 不支持无理由退换货
+								</span>
+								<p>【宁波保税仓】肌美精 5片装 滋润浸透面膜</p>
+								<div class="while_price">
+									￥59.00
+								</div>
+								<del>￥159.00</del>
+								<span class="while_buy"></span>
+							</div>							
+						</li>
+						<li>
+							<a href="javascript:;"><img src="../imges/l12.jpg"/></a>
+							<div class="text_box">
+								<span>
+								<img src="../imges/zhong.png"/>
+								韩国直邮 不支持七天无理由退换货
+								</span>
+								<p>【韩国直邮】 CNP 蜂胶活力2合1面膜 滋养紧致 5片</p>
+								<div class="while_price">
+									￥119.00
+								</div>
+								<del>￥299.00</del>
+								<span class="while_buy"></span>
+							</div>							
+						</li>-->
+					</ul>					
+				</div>				
+				<div class="page"></div>
+				<div>&nbsp;</div>
+			</div>
+		</div>
+		<div id="footer"></div>		
+		<div id="right_fixed"></div>
+		<script src="../scripts/sea.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			seajs.config({
+				alias:{
+					"jq":'jquery-1.11.3',      //插件  引入一个jquery
+					"pagination":'jquery.pagination',
+					"cookie":'jquery.cookie'
+				}
+			});
+			seajs.use('list');     //接口连到运行的JS文件中。路径是相对于sea.js的。														
+		</script>		
+	</body>
+</html>

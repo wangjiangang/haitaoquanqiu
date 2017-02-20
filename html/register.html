@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/zong.css"/>		
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>		
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="reg_main">
+			<div class="group_box">
+		        <div class="jogin_box clear">
+		            <div class="jogin left"></div>
+		            <span class="welcome_hitao">欢迎注册加入嗨淘全球</span>
+		            <div class="jogin_desc">
+		                	已是嗨淘全球会员？
+		            <a href="javascript:;" title="去登录" class="reg_btn"><span>去登录</span></a>
+		            </div>
+		        </div>
+		    </div>
+	        <div class="wrap_box">
+	        	<div class="content clear">
+	        		<div class="con_left left">
+	        			<img src="../imges/bg_reg.jpg"/>
+	        		</div>
+	        		<div class="con_right right">
+	        			<div class="reg_one">
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>手机号</span>
+		        					<input type="text" id="phone" placeholder="请输入您的手机号" />
+	        					</div>
+	        					<p class="tip_box"></p>
+	        				</div>
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>验证码</span>
+		        					<input type="text" id="testcode" placeholder="请输入图形验证码" />
+		        					<img src="../imges/yanzhengma.jpg" class="position_img"/>
+	        					</div>
+	        					<p class="tip_box clear"></p>
+	        				</div>
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>短信验证码</span>
+		        					<input type="text" id="imessage" placeholder="请输入验证码" />
+		        					<a href="javascript:;" class="position_a">获取短信验证码</a>
+	        					</div>
+	        					<p class="tip_box clear"></p>
+	        				</div>
+	        				<div class="nextway">
+	        					<span>下一步</span>
+	        				</div>
+	        			</div>
+	        			<div class="reg_two">
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>昵称</span>
+		        					<input type="text" id="name" placeholder="请输入您的昵称" />
+	        					</div>
+	        					<p class="tip_box"></p>
+	        				</div>
+	        				<div class="con_group">
+	        					<div class="con_border clear">
+		        					<span>密码</span>
+		        					<input type="password" id="password" placeholder="请输入密码" />	      					
+	        					</div>	        					
+	        				</div>
+	        				<div class="con_group sure">
+	        					<div class="con_border clear">
+		        					<span>确认密码</span>
+		        					<input type="password" id="surepass" placeholder="请重新输入密码" />		        					
+	        					</div>
+	        					<p class="tip_box tip_password clear"></p>
+	        				</div>
+	        				<div class="deal">
+	        					<input type="checkbox" name="" id="" value="" checked="checked" />
+	        					<span>我已阅读并同意<i>《嗨淘会员注册协议》</i></span>
+	        				</div>
+	        				<div class="nextway register">
+	        					<span>注册</span>
+	        				</div>
+	        			</div>
+	        		</div>
+	        	</div>
+	        </div>   		 	
+		</div>
+		<div id="footer"></div>
+		<div id="right_fixed"></div>
+		<script src="../scripts/sea.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			seajs.config({
+				alias:{
+					"jq":'jquery-1.11.3'      //插件  引入一个jquery
+				}
+			});
+			seajs.use('register');     //接口连到运行的JS文件中。路径是相对于sea.js的。
+		</script>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+.activity_btn a{background: #E40788;}
+.home_btn a{background: #000!important;}
+#activity_banner .banner_box{position: relative;overflow: hidden;height: 300px;}
+#activity_banner ul{}
+#activity_banner ul li{width: 2000px;height: 300px;background-color: #ff5f7a;position: absolute;top: 0;left: 50%;margin-left: -1000px;}
+#activity_banner ul li img{width: 1190px;margin: 0 auto;display: block;}
+/*img写宽度，让他居中。然后给li定位，定位时根据最大的banner盒子，让li居中。最大的盒子overflow：hidden*/
+#activity_main{background: #F0F0F0;}
+#activity_main .act_content{padding: 20px 0;}
+#activity_main .act_content .act_nav .nav_tab{width: 244px;height: 38px;overflow: hidden;border: 1px solid #e10482;border-radius: 5px;margin: 10px auto 20px;}
+#activity_main .act_content .act_nav .nav_tab li{float: left;width: 122px;font-size: 18px;text-align: center;line-height: 38px;color: #000;cursor: pointer;}
+#activity_main .act_content .act_nav .nav_tab li:first-child{background: #E40788;color: #fff;}
+#activity_main .act_content .act_list ul{width: 1202px;margin: 0 auto;}
+#activity_main .act_content .act_list li{width: 385px;height: 410px;margin: 15px 6px;border: 1px solid #f0f0f0;float: left;transition: all .5s;background: #fff;}
+#activity_main .act_list li .act_img{width: 100%;height: 241px;overflow: hidden;}
+#activity_main .act_list .act_img img{width: 100%;height: 100%;transition: all .5s;}
+#activity_main .act_list .act_wrap{padding: 6px 20px 0;color: #000;}
+#activity_main .act_list .act_wrap .act_form{width: 340px;height: 28px;line-height: 26px;}
+#activity_main .act_list .act_wrap .act_form img{border: 1px solid #cdcdcd;border-radius: 50%;width: 22px;height: 22px;}
+#activity_main .act_list .act_wrap .act_form em{white-space: nowrap;text-overflow: ellipsis;display: inline-block;width: 300px;overflow: hidden;}
+#activity_main .act_list .act_wrap .act_text{width: 350px;font-size: 18px;height: 46px;line-height: 24px;overflow: hidden;padding: 5px 0 0;}
+#activity_main .act_list .act_wrap .act_price{color: #e10482;padding-top: 10px;font-size: 14px;}
+#activity_main .act_list .act_wrap .act_price span{font-size: 30px;font-weight:900;font-family: 'fonten';line-height: 46px;}
+#activity_main .act_list .act_wrap .act_price p{color: #999;}
+#activity_main .act_content .act_list li{position: relative;}
+#activity_main .act_list .saleout span{display: block;width: 130px;height: 130px;z-index: 2;overflow: hidden;position: absolute;left: 50%;margin-left: -65px;top: 18%;background: url(../imges/out.png);line-height: 130px;font-size: 24px;text-align: center;color: #fff;}
+#activity_main .act_list .act_buy span{width: 59px;height: 59px;position: absolute;bottom: -11px;right: 21px;display: block;background: url(../imges/com_bg.png) no-repeat -72px -112px;}
+#activity_main .act_list li:hover .act_buy span{background-position: -133px -112px;}
+#activity_main .act_list li:hover .act_img img{transform: scale(1.1);}
+#activity_main .act_list li:hover{box-shadow: 0 0 20px #999;}
+#activity_main .act_will{display: none;}
